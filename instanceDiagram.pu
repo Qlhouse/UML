@@ -1,0 +1,18 @@
+@startuml
+usecase UC3
+(second usecase)
+@enduml
+
+@startuml
+(first usecase)
+:First Actor:
+actor Woman3
+actor :Last actor: as Person1
+@enduml
+
+@startuml
+:User: --> (Use)
+"Main admin" as Admin 
+"Use the application" as (Use)
+Admin --> (Admin the application)
+@enduml
